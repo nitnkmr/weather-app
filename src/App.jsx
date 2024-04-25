@@ -46,7 +46,7 @@ function App() {
           <div className="location temp"> <div className="icons"><FaLocationArrow /></div>{weatherInfo.city_name}, {weatherInfo.country_code}</div>
         </div>
         <div className="temprature">
-          <div className="temp"> <div className="icons"><FaWind /> </div>{weatherInfo.wind_spd}<span> km</span></div>
+          <div className="temp"> <div className="icons"><FaWind /> </div>{weatherInfo.wind_spd.toFixed(2)}<span>km</span></div>
           <div className="temp"> <div className="icons"><BsDroplet /> </div>{weatherInfo.rh} <span>%</span></div>
           <div className="tempCondition temp"><div className="icons"><TiWeatherWindyCloudy /></div> {weatherInfo.clouds}%</div>
           <div className="location temp"> <div className="icons"><MdOutlineVisibility /></div>{weatherInfo.vis}Km</div>
