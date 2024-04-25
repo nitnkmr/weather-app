@@ -1,8 +1,14 @@
-# React + Vite
+# Digital Paani Weather App
+### This app is created using React.Js + CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+You can visit the live application via this link :- https://weather-app-vite-umber.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Step to run code on local-
+
+### 1. Fork this repositry to your local machine or download the zip file.
+### 2. Run these following command -
+```
+npm install
+npm run dev
+```
